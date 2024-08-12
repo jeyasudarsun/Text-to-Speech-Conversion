@@ -1,6 +1,6 @@
 import pyttsx3
 import os
-from pydub import Audiosegment
+from pydub import AudioSegment
 engine = pyttsx3.init()
 engine.setProperty('rate', 160)  
 engine.setProperty('volume', 1.0) 
